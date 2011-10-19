@@ -13,6 +13,7 @@ SimpleOpenKeyVal is a PHP library to interface with *[OpenKeyval.org](http://ope
 
 ### Caching
 To cache retrieved values locally, set the `cacheTime` argument while creating `SimpleOpenKeyVal` object. The values will be cached upto `cacheTime` seconds.
+
 	require_once('SimpleOpenKeyVal.php');
 	$openKeyVal = new SimpleOpenKeyVal($cacheTime=60);	
 	$key = 'foobar-name';	
